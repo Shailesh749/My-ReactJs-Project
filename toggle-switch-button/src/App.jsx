@@ -1,8 +1,11 @@
 import './App.css'
+import { ToggleSwitch } from './Components/ToggleSwitch'
 function App() {
 return (
     <>
-       <h1>My name is shailesh</h1>
+      <section className='container'>
+        <ToggleSwitch></ToggleSwitch>
+      </section>
     </>
   )
 }
